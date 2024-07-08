@@ -2,11 +2,13 @@
 
 import os
 
-from dash_bootstrap_components import _components, icons, themes
-from dash_bootstrap_components._components import *  # noqa
-from dash_bootstrap_components._components import Table
-from dash_bootstrap_components._table import _generate_table_from_df
-from dash_bootstrap_components._version import __version__
+import _components
+import icons
+import themes
+from _components import *  # noqa
+from _components import Table
+from _table import _generate_table_from_df
+from _version import __version__
 
 __all__ = _components.__all__ + ["icons", "themes"]
 
